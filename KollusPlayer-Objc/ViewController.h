@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#import "KollusStorage.h"
+#import "KollusContent.h"
+#import "KollusPlayerView.h"
+#import "KollusPlayerDelegate.h"
 @interface ViewController : UIViewController
 
 
-@end
 
+@end

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1C33C924F79B4800216C78 /* libKollusSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33C824F79B4800216C78 /* libKollusSDK.a */; };
+		DB1C33CB24F79B5F00216C78 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33CA24F79B5F00216C78 /* libsqlite3.0.tbd */; };
+		DB1C33CD24F79B6F00216C78 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33CC24F79B6F00216C78 /* libiconv.tbd */; };
+		DB1C33CF24F79B7900216C78 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33CE24F79B7900216C78 /* CoreMedia.framework */; };
+		DB1C33D124F79B8200216C78 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33D024F79B8200216C78 /* AVFoundation.framework */; };
+		DB1C33D324F79B8A00216C78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33D224F79B8A00216C78 /* QuartzCore.framework */; };
+		DB1C33D524F79B9600216C78 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33D424F79B9600216C78 /* AudioToolbox.framework */; };
+		DB1C33D724F79BA100216C78 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33D624F79BA100216C78 /* OpenGLES.framework */; };
+		DB1C33D924F79BAF00216C78 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33D824F79BAF00216C78 /* Security.framework */; };
+		DB1C33DB24F79BB900216C78 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33DA24F79BB900216C78 /* SystemConfiguration.framework */; };
+		DB1C33DD24F79BC400216C78 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33DC24F79BC400216C78 /* MediaPlayer.framework */; };
+		DB1C33DF24F79BCE00216C78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33DE24F79BCE00216C78 /* CoreGraphics.framework */; };
+		DB1C33E124F79BD800216C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33E024F79BD800216C78 /* UIKit.framework */; };
+		DB1C33E324F79BE600216C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C33E224F79BE600216C78 /* Foundation.framework */; };
 		DB37B9112333457B007AC513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB37B9102333457B007AC513 /* AppDelegate.m */; };
 		DB37B9142333457B007AC513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB37B9132333457B007AC513 /* ViewController.m */; };
 		DB37B9172333457B007AC513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB37B9152333457B007AC513 /* Main.storyboard */; };
@@ -16,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB1C33C824F79B4800216C78 /* libKollusSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKollusSDK.a; path = ExternalLib/KollusSDK/lib/libKollusSDK.a; sourceTree = "<group>"; };
+		DB1C33CA24F79B5F00216C78 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DB1C33CC24F79B6F00216C78 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DB1C33CE24F79B7900216C78 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DB1C33D024F79B8200216C78 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB1C33D224F79B8A00216C78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DB1C33D424F79B9600216C78 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DB1C33D624F79BA100216C78 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DB1C33D824F79BAF00216C78 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DB1C33DA24F79BB900216C78 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DB1C33DC24F79BC400216C78 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DB1C33DE24F79BCE00216C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB1C33E024F79BD800216C78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB1C33E224F79BE600216C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB37B90C2333457B007AC513 /* KollusPlayer-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KollusPlayer-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB37B90F2333457B007AC513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB37B9102333457B007AC513 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +61,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1C33E324F79BE600216C78 /* Foundation.framework in Frameworks */,
+				DB1C33E124F79BD800216C78 /* UIKit.framework in Frameworks */,
+				DB1C33DF24F79BCE00216C78 /* CoreGraphics.framework in Frameworks */,
+				DB1C33DD24F79BC400216C78 /* MediaPlayer.framework in Frameworks */,
+				DB1C33DB24F79BB900216C78 /* SystemConfiguration.framework in Frameworks */,
+				DB1C33D924F79BAF00216C78 /* Security.framework in Frameworks */,
+				DB1C33D724F79BA100216C78 /* OpenGLES.framework in Frameworks */,
+				DB1C33D524F79B9600216C78 /* AudioToolbox.framework in Frameworks */,
+				DB1C33D324F79B8A00216C78 /* QuartzCore.framework in Frameworks */,
+				DB1C33D124F79B8200216C78 /* AVFoundation.framework in Frameworks */,
+				DB1C33CF24F79B7900216C78 /* CoreMedia.framework in Frameworks */,
+				DB1C33CD24F79B6F00216C78 /* libiconv.tbd in Frameworks */,
+				DB1C33CB24F79B5F00216C78 /* libsqlite3.0.tbd in Frameworks */,
+				DB1C33C924F79B4800216C78 /* libKollusSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB1C33C724F79B4700216C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1C33E224F79BE600216C78 /* Foundation.framework */,
+				DB1C33E024F79BD800216C78 /* UIKit.framework */,
+				DB1C33DE24F79BCE00216C78 /* CoreGraphics.framework */,
+				DB1C33DC24F79BC400216C78 /* MediaPlayer.framework */,
+				DB1C33DA24F79BB900216C78 /* SystemConfiguration.framework */,
+				DB1C33D824F79BAF00216C78 /* Security.framework */,
+				DB1C33D624F79BA100216C78 /* OpenGLES.framework */,
+				DB1C33D424F79B9600216C78 /* AudioToolbox.framework */,
+				DB1C33D224F79B8A00216C78 /* QuartzCore.framework */,
+				DB1C33D024F79B8200216C78 /* AVFoundation.framework */,
+				DB1C33CE24F79B7900216C78 /* CoreMedia.framework */,
+				DB1C33CC24F79B6F00216C78 /* libiconv.tbd */,
+				DB1C33CA24F79B5F00216C78 /* libsqlite3.0.tbd */,
+				DB1C33C824F79B4800216C78 /* libKollusSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB37B9032333457A007AC513 = {
 			isa = PBXGroup;
 			children = (
 				DB37B90E2333457B007AC513 /* KollusPlayer-Objc */,
 				DB37B90D2333457B007AC513 /* Products */,
+				DB1C33C724F79B4700216C78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -287,12 +351,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D87JZ6F857;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "/Users/hdyang/Develop/KollusPlayer-Objc/ExternalLib/KollusSDK/include/KollusSDK";
 				INFOPLIST_FILE = "KollusPlayer-Objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.hyeond.KollusPlayer-Objc";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLib/KollusSDK/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.se.kollus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,12 +378,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D87JZ6F857;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "/Users/hdyang/Develop/KollusPlayer-Objc/ExternalLib/KollusSDK/include/KollusSDK";
 				INFOPLIST_FILE = "KollusPlayer-Objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.hyeond.KollusPlayer-Objc";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLib/KollusSDK/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.se.kollus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
